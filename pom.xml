@@ -36,7 +36,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>cicd</finalName>
+        <finalName>chatapplication</finalName>
     </build>
 
 </project>
