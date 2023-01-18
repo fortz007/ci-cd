@@ -1,4 +1,4 @@
 FROM openjdk:11
-ADD ./target/chatapp chatapp.jar
-ENTRYPOINT ["java", "-jar", "chatapp.jar"]
+ADD ./target/cicd.jar cicd.jar
+ENTRYPOINT ["java", "-jar", "cicd.jar"]
 EXPOSE 8080
